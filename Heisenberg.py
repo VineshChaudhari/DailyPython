@@ -1,4 +1,2 @@
-name = "Vinesh"
-age = 19
-marks = "7.76 GPA"
-print (name,age,marks)
+age = int(input("Enter your age: "))
+print("You are",age,"years old")
