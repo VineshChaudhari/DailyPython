@@ -1,15 +1,5 @@
-a = [x for x in range(5)]
-print (a)
+squares = [x*x for x in range(1,21) if x%2 == 1]
+print(squares)
 
-a = []
-for i in range(5):
-    a.append(i)
-print(a)
-
-a = [1,2,3]
-a.append(4)
-print(a)
-
-a = [1,2,4]
-a.insert(3,2)
-print(a)
+squares = [x*x for x in range(1,21) if x%2 == 0]
+print(squares)
